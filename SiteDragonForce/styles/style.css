@@ -1,0 +1,117 @@
+body{
+    background-color: #08080D; 
+    font-family: 'League Gothic', sans-serif; 
+}
+
+.ulinho{
+    display: flex;
+    flex-direction: row;
+    margin-top: 11vh;
+    width: 100%;
+    font-size: 200%;
+    justify-content: center;
+    gap: 12%;
+    font-weight: bolder;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+    background-color: #08080D;
+    z-index: 10;
+    box-shadow: 2 0;
+}
+
+a{
+    color: #E1A42D;
+    text-decoration: none;
+    list-style-type: none;
+    user-select: none;
+}
+
+.but{
+    border: outset 8px white;
+    background-color: white;
+    border-radius: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.but:active{
+    border: inset 8px white;
+    background-color: rgb(233, 233, 233);
+}
+
+.dragon{
+    color: #E1A42D;
+    width: 58vh;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 67%;
+    margin-top: -375px;
+    position: absolute;
+    font-size: 140px;
+    line-height: 0.8;
+}
+
+.nilson{
+    color: #E1A42D;
+    font-size: 40px;
+    margin-left: 3%;
+
+}
+
+span{
+    color: red;
+}
+
+.title{
+    color: #E1A42D;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+p{
+    justify-content: center;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.644);
+}
+
+.dragao:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.mao:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+    z-index: 2;
+}
+
+.pula:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.musics{
+    display: flex;
+    flex-direction: row;
+    gap: 1.8%;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 2%;
+    padding: 0px;
+    justify-content: center;
+    margin-top: -50px;
+}
