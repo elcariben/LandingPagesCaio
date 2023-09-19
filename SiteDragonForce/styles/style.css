@@ -73,8 +73,10 @@ span{
 
 p{
     justify-content: center;
-    font-size: 25px;
+    font-size: 35px;
     color: rgba(255, 255, 255, 0.644);
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .dragao:hover{
@@ -101,6 +103,21 @@ p{
     justify-content: center;
 }
 
+.albuns{
+    display: flex;
+    flex-direction: row;
+    gap: 126px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.descr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
 h1{
     color: white;
     font-size: 30px;
@@ -114,4 +131,17 @@ h1{
     padding: 0px;
     justify-content: center;
     margin-top: -50px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p1{
+    justify-content: center;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.644);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: -80px; 
 }
